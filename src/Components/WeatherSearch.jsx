@@ -17,10 +17,8 @@ toast.configure();
 const WeatherSearch = (props) => {
   const [WeatherData, setWeatherData] = useState({});
   const [country, setCountry] = useState("mumbai");
-
-  const MyApi = `https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=${process.env.API_KEY}`;
-
   const getData = async () => {
+    const MyApi = `https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=${process.env.REACT_APP_API_KEY}`;
     try {
       const myData = await axios.get(MyApi);
       console.log(myData)
