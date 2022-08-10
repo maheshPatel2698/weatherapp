@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.searchbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.s{
+    width: 25rem;
+    margin: 5px;
+    padding: 4px;
+}
+#b{
+    width: 10rem;
+    margin: 0.50rem;
+    
+}
+@media(max-width:420px){
+    .s{
+        width: auto;
+        margin: auto;
+    }
+}

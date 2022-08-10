@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-body{
+
+    width: 30rem;
+    height: 25rem;
+    margin: auto;
+    border-radius: 5%;
+    background-color: whitesmoke;
+ 
+    
+}
+.icons{
+    width: 10rem;
+    height: 10rem;
+}
+.icon{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+}
+.main-content{
+ 
+    width: 100%;
+    height: 8rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: rgb(73, 73, 73);
+    color: whitesmoke;
+}
+.deg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: cyan;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+ 
+   
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-data{
+
+    width: 100%;
+    height: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+@media(max-width:500px){
+    .main-body{
+        width: auto;
+        margin: auto;
+    }
+    .deg{
+        margin: auto;
+        font-size:  1rem;
+    }
+    .city{
+        font-size: 1rem;
+    }
+    .date{
+        font-size: 1rem;
+    }
+    .mood{
+        font-size: 1rem;
+    
+    }
+    .humidity{
+        font-size: 1rem;
+    }
+    .pressure{
+        font-size: 1rem;
+    }
+    .wind{
+        font-size: 1rem;
+    }
+   
+}
+
